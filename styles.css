@@ -166,9 +166,33 @@ nav{
     height: 200rem;
 }
 
-@media (max-width:550px) {
+@media screen and (max-width:550px) {
     .first-row{
-        margin-top: 17rem;
+        margin-top: 25rem;
+        flex-direction: column-reverse;
+        gap: 7rem;
+        justify-content: space-between;
+    }
+    .picture{
+        width: 15rem;
+        height: 15rem;
+    }
+    .profile-picture{
+        margin-top: -1rem; 
+    }
+    .sign{
+        border-radius: 0%;
+        object-fit: contain;
+        margin-top: -5rem;
+    }
+    .Personal-info{
+        width: 480px;
+        text-align: center;
+    }
+}
+@media screen and (max-width:550px) {
+    .first-row{
+        margin-top: 25rem;
         flex-direction: column-reverse;
         gap: 7rem;
         justify-content: space-between;
