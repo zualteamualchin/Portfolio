@@ -189,10 +189,16 @@ nav{
         width: 480px;
         text-align: center;
     }
+    .second-row{
+        width: 100%;
+    }
 }
-@media screen and (max-width:550px) {
+@media screen and (max-width:470px) {
+    body{
+        width: 100%;
+    }
     .first-row{
-        margin-top: 25rem;
+        margin-top: 20rem;
         flex-direction: column-reverse;
         gap: 7rem;
         justify-content: space-between;
@@ -210,7 +216,148 @@ nav{
         margin-top: -5rem;
     }
     .Personal-info{
-        width: 480px;
+        width: 400px;
+        text-align: center;
+        font-size: smaller;
+    }
+}
+@media screen and (max-width:400px) {
+    body{
+        width: 100%;
+    }
+    .first-row{
+        margin-top: 16rem;
+        flex-direction: column-reverse;
+        gap: 7rem;
+        justify-content: space-between;
+    }
+    .picture{
+        width: 14rem;
+        height: 14rem;
+    }
+    .profile-picture{
+        margin-top: -1rem; 
+    }
+    .sign{
+        border-radius: 0%;
+        object-fit: contain;
+        margin-top: -5rem;
+    }
+    .Personal-info{
+        width: 350px;
+        text-align: center;
+        font-size: smaller;
+        margin-top: -2rem ;
+    }
+    .intro{
+        margin-top: -1rem ;
+    }
+    .second-row{
+        margin-top: -3rem ;
+    }
+}
+@media screen and (max-width:350px) {
+    body{
+        width: 100%;
+    }
+    .first-row{
+        margin-top: 22rem;
+        flex-direction: column-reverse;
+        gap: 6rem;
+        justify-content: space-between;
+    }
+    .picture{
+        width: 14rem;
+        height: 14rem;
+    }
+    .profile-picture{
+        margin-top: -1rem; 
+    }
+    .sign{
+        border-radius: 0%;
+        object-fit: contain;
+        margin-top: -5rem;
+    }
+    .Personal-info{
+        font-size: smaller;
+        margin-top: -2rem;
+        width: 300px;
         text-align: center;
     }
+    .intro{
+        margin-top: -.8rem;
+    }
+    .second-row{
+        margin-top: -3rem;
+    }   
+}
+@media screen and (max-width:320px) {
+    body{
+        width: 100%;
+    }
+    .first-row{
+        margin-top: 22rem;
+        flex-direction: column-reverse;
+        gap: 6rem;
+        justify-content: space-between;
+    }
+    .picture{
+        width: 14rem;
+        height: 14rem;
+    }
+    .profile-picture{
+        margin-top: -1rem; 
+    }
+    .sign{
+        border-radius: 0%;
+        object-fit: contain;
+        margin-top: -5rem;
+    }
+    .Personal-info{
+        font-size: smaller;
+        margin-top: -2rem;
+        width: 280px;
+        text-align: center;
+    }
+    .intro{
+        margin-top: -.8rem;
+    }
+    .second-row{
+        margin-top: -3rem;
+    }   
+}
+@media screen and (max-width:300px) {
+    body{
+        width: 100%;
+    }
+    .first-row{
+        margin-top: 24rem;
+        flex-direction: column-reverse;
+        gap: 6rem;
+        justify-content: space-between;
+    }
+    .picture{
+        width: 14rem;
+        height: 14rem;
+    }
+    .profile-picture{
+        margin-top: -1rem; 
+    }
+    .sign{
+        border-radius: 0%;
+        object-fit: contain;
+        margin-top: -5rem;
+    }
+    .Personal-info{
+        font-size: smaller;
+        margin-top: -2rem;
+        width: 250px;
+        text-align: center;
+    }
+    .intro{
+        margin-top: -.8rem;
+    }
+    .second-row{
+        margin-top: -3rem;
+    }   
 }
